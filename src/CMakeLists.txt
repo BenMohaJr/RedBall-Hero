@@ -1,0 +1,2 @@
+﻿file (GLOB MY_SOURCE_FILES CONFIGURE_DEPENDS LIST_DIRECTORIES false RELATIVE ${CMAKE_CURRENT_LIST_DIR} *.cpp)
+target_sources (${CMAKE_PROJECT_NAME} PRIVATE ${MY_SOURCE_FILES} "../include/Game.h" "../include/Ball.h" "../include/ObjectFactory.h"  "GameObject.cpp" "../include/Enemy.h" "../include/Box.h" "Box.cpp" "../include/Rock.h" "Rock.cpp" "../include/Border.h" "Border.cpp"  "../include/Boss.h" "Boss.cpp")
